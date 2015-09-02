@@ -10,6 +10,7 @@ class Restart
   end
 
   def check
+    File.exist?('/etc/init.d/httpd')
     #@results = File.exist?('/etc/init.d/httpd')
     #if @results == false
     #  puts "Error, Apache not found"
@@ -20,7 +21,6 @@ class Restart
     #  puts "Error, another error found, might not be supported."
     #  abort("Exiting")
     #end
-    false
   end
 
   def restarting
