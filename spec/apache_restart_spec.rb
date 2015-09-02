@@ -1,4 +1,4 @@
-require '/Users/robertf/Dropbox/Programming/Ruby/rspec_testing/lib/apache_restart'
+require_relative 'spec_helper'
 
 RSpec.describe Restart do
   describe 'check' do
