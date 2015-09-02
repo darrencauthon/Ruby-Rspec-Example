@@ -57,5 +57,3 @@ class Restart
          end
    end
 end
-
-Restart.new
