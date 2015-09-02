@@ -1,5 +1,3 @@
-
-
 class Restart
 
    def initialize
